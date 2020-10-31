@@ -96,7 +96,7 @@
     transition: transform 1s ease-in-out;
 }
 
-.smiley:hover {
+.smiley:hover, .smiley:focus, .smiley:active {
     transform: translateY(-20%);
 }
 
@@ -144,5 +144,10 @@
 
     .eye {
         width: 90vw;
+    }
+
+    .badge {
+        height: 120px;
+        width: 120px;
     }
 }
