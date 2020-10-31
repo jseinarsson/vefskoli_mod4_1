@@ -84,7 +84,20 @@
     z-index: 200;
     bottom: 0;
     right: 0;
-    color: yellow;
+
+    height: 150px;
+    width: 150px;
+
+    padding: 20px;
+}
+
+.smiley {
+    fill: #FF7BAC;
+    transition: transform 1s ease-in-out;
+}
+
+.smiley:hover {
+    transform: translateY(-20%);
 }
 
 /* Keyframes */
